@@ -5,7 +5,7 @@ public class WhileLoop extends ConsoleProgram {
 		
 		// This will keep looping until 'i' is equal to 0
 		while (i >= 0) {
-			System.out.println(l); // Output the integer 'i' to the console
+			System.out.println(i); // Output the integer 'i' to the console
 			i--; // Decrement the i by 1
 		};
 	}; 
