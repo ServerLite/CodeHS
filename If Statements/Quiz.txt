@@ -1,0 +1,45 @@
+Why do we use if statements in Java?
+
+> To break out of some block of code.
+-- This statement is incorrect because it uses the 'break' command from within a looping expression.
+
+> To do something only if the condition is true. << Correct
+-- This statement is correct because it checks 'IF' the condition is true
+
+> To do something while a condition is true.
+-- This statement is incorrect because this requires the 'WHILE' loop for this to be true.
+
+> To repeat something for a fixed number of times.
+-- this statement is incorrect because it reqires the 'FOR' loop for this to be true.
+
+---------------------------------------------------------------------------
+
+Which if statement is written proper?
+> if (boolean expression):
+    // code to execute
+   
+   -- This statement is incorrect because we need to have a parenthesis around the boolean expression 
+   AND we need to have curly braces for our block of code
+   
+   
+> if boolean expression
+  {
+    // code to execute
+  }
+  
+  -- This statement is in incorrect because we need to have parenthesis around the boolean expression
+
+
+> if (boolean expression)   << Correct
+	{
+		// code to execute
+	}
+	
+	-- This statement is correct because all syntax requirements are accepted
+	
+> if (boolean expression)
+	[
+		// code to execute
+	]
+	
+	-- This statement is incorrect because we need curly braces to contain our code, NOT square brackets.
