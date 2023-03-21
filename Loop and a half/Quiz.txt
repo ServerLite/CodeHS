@@ -1,0 +1,51 @@
+Which statement can we use inside of a loop to end it?
+
+> System.out.println;
+-- This statement is incorrect because it is a function and it outputs text to the console.
+
+> break;        << Correct
+-- This statement is correct because this allows us to break out of loops
+
+> SENTINEL;
+-- This statement is incorrect because this is a made-up syntax. (Personally, never seen this. :( )
+
+> else
+-- this statement is incorrect because this is used for if statements.
+
+----------------------------------------------------------------------------
+
+Which of the following is correct loop and a half structure?
+
+>	while (condition)
+	{
+		// code
+	}
+	
+	-- This statement is incorrect because, yes it does create a proper while loop, but there is not break statement for this quiz.
+	
+>	while (true)         << correct
+	{
+		if (condition)
+		{
+			break;
+		}
+		// code
+	}
+	-- This statement is correct because if contains while loop and a break statement
+	
+	
+>	for (int i = 0; i < 1.5; i++)
+	{
+		// code
+	}
+	
+	-- This statement is incorrect because this is a for loop
+	
+>	for (int i = 0; i < 2; i++)
+	{
+		// code
+		break;
+		// code
+	}
+	
+	-- This statement is incorrect because this is a for loop and the first code would only run because it would just break before the second code could run.
